@@ -35,6 +35,7 @@
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .detail-text{
@@ -108,10 +109,6 @@ button, .subscribe-box{
     width: 500px;
 }
 
-.bold-text{
-    font-family: 'Bebas Neue', cursive;
-}
-
 .black-btn{
     padding: 10px;
     border-color: white;
@@ -122,4 +119,34 @@ button, .subscribe-box{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     background-color: #1f2937;
+}
+
+.section-header{
+    font-size: 48px;
+    font-weight: bold;
+    color: #1f2937;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+
+
+
+.art-pieces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.artwork{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.description{
+    text-align: center;
 }
