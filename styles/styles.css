@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');    
+
+.header, .introduction, .footer{
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex: 1;
+}
+
+.artworks{
+    background-color: white;
+}
+
+.quotes{
+    background-color: #e5e7eb;
+}
+
+.logo{
+    font-size: 70px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-family: 'Comforter', cursive;
+}
+
+.bold-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.detail-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+li{
+    font-size: 48px;
+    margin-left: 60px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button, .subscribe-box{
+    background-color: #3882f6;
+    color: white;
+}
+
+.section-header{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.picture-file{
+    width: 200px;
+    height: auto;
+}
+
+.page-content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.profile-pic{
+    width:300px;
+    height: auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 50%;  
+}
+
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 48px;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 500px;
+}
+
+.bold-text{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.black-btn{
+    padding: 10px;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 4px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background-color: #1f2937;
+}
