@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');    
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 
-.header, .introduction, .footer{
+.introduction, .footer{
     background-color: #1f2937;
 }
 
@@ -14,6 +14,7 @@ body{
 }
 
 .header{
+    background-color: #18202a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +22,6 @@ body{
     padding-left: 200px;
     padding-right: 200px;
     flex: 1;
-   
 }
 
 .artworks{
@@ -71,10 +71,6 @@ a{
     color: white;
 }
 
-button{
-    background-color: #3882f6;
-    color: white;
-}
 
 .section-header{
     font-size: 36px;
@@ -90,7 +86,7 @@ button{
 .page-content{
     display: flex;
     flex-direction: column;
-    gap:20px;
+    
 }
 
 .profile-pic{
@@ -108,6 +104,7 @@ button{
     align-items: center;
     gap: 100px;
     padding: 48px;
+
 }
 
 .intro-text{
@@ -138,13 +135,11 @@ button{
 }
 
 
-
-
 .art-pieces{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
 }
 
 .artwork{
@@ -179,5 +174,57 @@ button{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 20px;
+}
+
+.subscribe-section{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-box{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:40px 80px 40px 80px;
+    gap:90px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.subscribe-bold{
+    color:#e5e7eb;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+}
+
+.subscribe-plain{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #e5e7eb;
+}
+
+.subscribe-btn{
+    padding: 10px;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 4px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background-color: #3882f6;
+}
+
+.footer{
+    color: #e5e7eb;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
