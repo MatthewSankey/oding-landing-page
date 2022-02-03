@@ -25,7 +25,13 @@ body{
 }
 
 .artworks{
+    background-image: url("../images/lizard.jpg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+
+    background-position-y: 80%;
     background-color: white;
+    padding-bottom: 30px;
 }
 
 .quotes{
@@ -150,6 +156,8 @@ a{
     width: 300px;
 }
 
+
+
 .description{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -227,4 +235,3 @@ a{
     font-size: 20px;
     font-weight: bold;
 }
-
