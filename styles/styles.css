@@ -3,6 +3,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');    
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 
+@media only screen and (max-width: 768px) {
+    .header,
+    div.introduction,
+    .art-pieces,
+    div.subscribe-box{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    div.intro-text{
+        width: initial;
+        gap: 40px;
+    }
+
+    .link{
+        font-size: 20px;
+        margin-left: 48px;
+    }
+
+    div.header{
+        padding-left: initial;
+        padding-right: initial;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    .quote{
+        padding: 30px;
+    }
+
+  }
+
 .introduction, .footer{
     background-color: #1f2937;
 }
@@ -11,7 +45,9 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+
 }
+
 
 .header{
     background-color: #18202a;
@@ -22,14 +58,11 @@ body{
     padding-left: 200px;
     padding-right: 200px;
     flex: 1;
+
 }
 
-.artworks{
-    background-image: url("../images/lizard.jpg");
-    background-repeat: no-repeat;
-    background-size: 40%;
 
-    background-position-y: 80%;
+.artworks{
     background-color: white;
     padding-bottom: 30px;
 }
